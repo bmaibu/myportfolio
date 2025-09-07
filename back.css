@@ -1,7 +1,8 @@
-.home-button {
-    position: absolute;
-    bottom: 30px;
-    left: 45%;
+
+
+   .home-button {
+    display: block;
+    margin: 40px auto 0; /* space from the last skill */
     padding: 12px 24px;
     background-color: #ffcc00;
     color: #000;
@@ -13,17 +14,15 @@
     transition: 0.3s ease;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   }
-
+  
   .home-button:hover {
     background-color: #e6b800;
     color: white;
   }
-   .back-button {
+  
+  .back-button {
     display: block;
-    margin: 30px auto 0;
-    position: absolute;
-    bottom: 90px;
-    left: 45%;
+    margin: 30px auto 0; /* centers and spaces it above the home button */
     padding: 12px 24px;
     background-color: #ffaa00;
     color: #000;
@@ -35,8 +34,9 @@
     transition: background 0.3s ease;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   }
-
+  
   .back-button:hover {
     background-color: #e69a00;
     color: #fff;
   }
+  
