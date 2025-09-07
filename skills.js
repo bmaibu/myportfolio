@@ -15,10 +15,10 @@ function animateBar(id, percent) {
 
   // Animate all skill bars on load
   window.onload = () => {
-    animateBar("html-bar", 70);
-    animateBar("css-bar", 60);
-    animateBar("js-bar", 40);
-    animateBar("react-bar", 40);
-    animateBar("cpp-bar", 45);
-    animateBar("dsa-bar", 40);
+    animateBar("html-bar", 80);
+    animateBar("css-bar", 70);
+    animateBar("js-bar", 60);
+    animateBar("react-bar", 70);
+    animateBar("cpp-bar", 60);
+    animateBar("dsa-bar", 50);
   };
