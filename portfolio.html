@@ -1,84 +1,82 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Portfolio Welcome</title>
   <link rel="stylesheet" href="back.css" />
-
   <style>
     body {
       margin: 0;
-      padding-top:50px ;
       height: 100vh;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       background: linear-gradient(135deg, #6363e1,rgb(212, 147, 55), #65baa6);
       font-family: 'Segoe UI', sans-serif;
+      position: relative;
     }
-    h1{
-      font-weight: bold;
+    h1, h2 {
+      width: 100%;
+      text-align: center;
       color: #ffcc00;
-      padding-bottom: 700px ;
-    }
-    h2{
-      position: absolute;
       font-weight: bold;
-      color: #ffcc00;
-      padding-top: 200px;
+      margin: 0 0 15px 0;
+      padding: 0;
     }
-
+    h1 {
+      font-size: 2.5em;
+    }
+    h2 {
+      font-size: 1.7em;
+    }
     .message {
       font-size: 2em;
       font-weight: bold;
       color: #ffcc00;
-      background-color: rgba(255, 255, 255, 0.05);
-      position: absolute;
+      background-color: rgba(255, 255, 255, 0.08);
       text-align: center;
       padding: 30px 50px;
       border-radius: 15px;
       box-shadow: 0 8px 20px rgba(0,0,0,0.2);
       opacity: 0;
+      margin-bottom: 120px;
+      transition: opacity 1s, transform 1s;
       transform: translateY(20px);
-      transition: all 1s ease;
     }
-
     .message.show {
       opacity: 1;
       transform: translateY(0);
     }
-  
-</style>
-
-
+    .nav-buttons {
+      position: fixed;
+      left: 50%;
+      bottom: 50px;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 20px;
+      z-index: 100;
+    }
+  </style>
 </head>
 <body>
     <h1>Welcome</h1>
     <h2>Thanks for Visiting My Website!</h2>
-
-  <div class="message" id="welcomeMessage">
-    You are already on the portfolio website created by me 🌐
-  </div>
-  
-  <button class="back-button" onclick="goToProjects()">🔙 Return to Projects</button>
-  <button onclick="goHome()" class="home-button">🏠 Return to Home</button>
-
-
-  <script>
-    // Show message with animation on load
-    window.onload = () => {
-      document.getElementById('welcomeMessage').classList.add('show');
-    };
-
-
- 
-  // Show the welcome message with animation
-  window.onload = () => {
-    document.getElementById('welcomeMessage').classList.add('show');
-  };
-</script>
-<script src="back.js"></script>
-
-
+    <div class="message" id="welcomeMessage">
+      You are already on the portfolio website created by me 🌐
+    </div>
+    <div class="nav-buttons">
+      <button class="back-button" onclick="goToProjects()">🔙 Return to Projects</button>
+      <button class="home-button" onclick="goHome()">🏠 Return to Home</button>
+    </div>
+    <script>
+      window.onload = () => {
+        document.getElementById('welcomeMessage').classList.add('show');
+      };
+    </script>
+    <script src="back.js"></script>
 </body>
 </html>
+
