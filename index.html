@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAIBU - Full Stack Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress"></div>
+
+    <!-- Animated Background -->
+    <div class="bg-animation"></div>
+
+    <!-- Floating Particles -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <a href="#home" class="logo">MAIBU</a>
+        <nav class="navbar" id="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#cirtificates">Cirtificates</a>
+            <a href="#calculator">Calculator</a>
+            <a href="#contact">Hire me</a>
+        </nav>
+        <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content fade-in">
+            <h1 class="hero-title glitch" data-text="MAIBU">MAIBU</h1>
+            <h2 class="hero-subtitle">
+                Full Stack Developer | 
+                <span class="typing-text" id="typing-text">MERN Stack Developer</span>
+            </h2>
+            <p class="hero-description">
+                Crafting innovative web solutions with cutting-edge technologies. 
+                Passionate about creating seamless user experiences and robust backend systems.
+            </p>
+            <a href="#projects" class="cta-button">Explore My Work</a>
+            
+            <div class="social-links">
+                <a href="https://github.com/bmaibu" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/b-maibu-b06254272/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/bmaibu_/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://wa.me/6281627507" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://www.twitter.com/@bmaibu_/" target="_blank"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.facebook.com/share/1ALXso9iuT/" target="_blank"><i class='bx bxl-facebook'></i></a>
+            </div>
+        </div>
+
+        <!-- Custom Photo Avatar -->
+        <div class="holographic-avatar">
+            <div class="avatar-inner">
+                <span><img src="maibu.jpg" alt="" class="avatar-img" /></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <h2 class="section-title fade-in">About Me</h2>
+        <div class="about-grid">
+            <div class="about-image slide-in-left">
+                <div class="about-card">
+                    <div class="profile-photo">
+                        <img src="maibu2.jpg" alt="" />
+                    </div>
+                    
+                    <h4 style="color: var(--accent-color); font-size: 1.2rem;">Computer Science Student</h4>
+                    <p style="text-align: center; margin-top: 15px; color: var(--text-gray);">
+                        IIIT Bhagalpur<br>
+                        B.Tech CSE
+                        2023-2027
+                    </p>
+                </div>
+            </div>
+            <div class="about-content slide-in-right">
+                <h3>Full Stack Developer & Tech Enthusiast</h3>
+                <p>
+                    Hello! I'm <strong style="color: var(--primary-color);">MAIBU</strong>, a passionate 
+                    <strong style="color: var(--accent-color);">Full Stack Developer</strong> 
+                    specializing in the MERN stack ecosystem.
+                </p>
+                <p>
+                    Currently pursuing my B.Tech in Computer Science and Engineering at 
+                    <strong style="color: var(--primary-color);">IIIT Bhagalpur</strong>, 
+                    I'm building a solid foundation in computer science principles while mastering modern web technologies.
+                </p>
+                <p>
+                    I thrive on creating innovative solutions that bridge the gap between complex backend systems 
+                    and intuitive user interfaces. My passion lies in transforming ideas into scalable, 
+                    real-world applications.
+                </p>
+                <p>
+                    I'm actively seeking a <strong style="color: var(--secondary-color);">MERN Stack Developer</strong> 
+                    internship to contribute to meaningful projects while expanding my practical experience in 
+                    enterprise-level development.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <h2 class="section-title fade-in">⚡ Technical Arsenal</h2>
+        <div class="skills-grid">
+            <div class="skill-card fade-in">
+                <div class="skill-header">
+                    <span class="skill-name">HTML5</span>
+                    <span class="skill-percentage">80%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="80"></div>
+                </div>
+            </div>
+
+            <div class="skill-card fade-in">
+                <div class="skill-header">
+                    <span class="skill-name">CSS3 & Sass</span>
+                    <span class="skill-percentage">75%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="75"></div>
+                </div>
+            </div>
+
+            <div class="skill-card fade-in">
+                <div class="skill-header">
+                    <span class="skill-name">JavaScript ES6+</span>
+                    <span class="skill-percentage">70%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="70"></div>
+                </div>
+            </div>
+
+            <div class="skill-card fade-in">
+                <div class="skill-header">
+                    <span class="skill-name">React.js</span>
+                    <span class="skill-percentage">75%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="75"></div>
+                </div>
+            </div>
+
+            <div class="skill-card fade-in">
+                <div class="skill-header">
+                    <span class="skill-name">Node.js</span>
+                    <span class="skill-percentage">70%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="70"></div>
+                </div>
+            </div>
+
+            <div class="skill-card fade-in">
+                <div class="skill-header">
+                    <span class="skill-name">Express.js</span>
+                    <span class="skill-percentage">72%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="72"></div>
+                </div>
+            </div>
+
+            <div class="skill-card fade-in">
+                <div class="skill-header">
+                    <span class="skill-name">MongoDB</span>
+                    <span class="skill-percentage">65%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="65"></div>
+                </div>
+            </div>
+
+            <div class="skill-card fade-in">
+                <div class="skill-header">
+                    <span class="skill-name">C++</span>
+                    <span class="skill-percentage">68%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="68"></div>
+                </div>
+            </div>
+
+            <div class="skill-card fade-in">
+                <div class="skill-header">
+                    <span class="skill-name">Data Structures</span>
+                    <span class="skill-percentage">60%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="60"></div>
+                </div>
+            </div>
+
+            <div class="skill-card fade-in">
+                <div class="skill-header">
+                    <span class="skill-name">OOP Concepts</span>
+                    <span class="skill-percentage">65%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="65"></div>
+                </div>
+            </div>
+
+            <div class="skill-card fade-in">
+                <div class="skill-header">
+                    <span class="skill-name">Git & GitHub</span>
+                    <span class="skill-percentage">78%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="78"></div>
+                </div>
+            </div>
+
+            <div class="skill-card fade-in">
+                <div class="skill-header">
+                    <span class="skill-name">Responsive Design</span>
+                    <span class="skill-percentage">80%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="80"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <h2 class="section-title fade-in">🚀 Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card fade-in">
+                <div class="project-icon">🌐</div>
+                <h3 class="project-title">Ultra Modern Portfolio</h3>
+                <p class="project-description">
+                    A cutting-edge portfolio website featuring advanced CSS animations, 
+                    glassmorphism design, holographic elements, and responsive architecture. 
+                    Built with vanilla JavaScript and modern web technologies.
+                </p>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="project-icon">🧮</div>
+                <a href="#calculator"><h3 class="project-title">Advanced Calculator</h3></a>
+                <p class="project-description">
+                    A sophisticated calculator application with a cyberpunk-inspired design, 
+                    keyboard support, cursor positioning, and advanced mathematical operations. 
+                    Features smooth animations and error handling.
+                </p>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="project-icon">🔐</div>
+                <a href="https://react-auth-form-phi.vercel.app/">
+                    <h3 class="project-title">Neumorphic Auth Form</h3>
+                </a>
+                <p class="project-description">
+                  A stylish sign-in/sign-up authentication form using modern neumorphism (Soft UI).
+                  Includes floating labels, checkbox styling, form validation,
+                  smooth transitions enhance user experience across devices.
+                </p>
+             </div>
+
+
+<!--             <div class="project-card fade-in">
+                <div class="project-icon">⚡</div>
+                <h3 class="project-title">MERN Stack Application</h3>
+                <p class="project-description">
+                    Full-stack web application showcasing complete CRUD operations, 
+                    JWT authentication, RESTful APIs, and modern React patterns. 
+                    Demonstrates enterprise-level development practices.
+                </p>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="project-icon">🎯</div>
+                <h3 class="project-title">Interactive Dashboard</h3>
+                <p class="project-description">
+                    Real-time data visualization dashboard with dynamic charts, 
+                    responsive design, and interactive elements. Built using modern 
+                    JavaScript frameworks and data visualization libraries.
+                </p>
+            </div> -->
+        </div>
+    </section>
+
+    <section class="section" id="cirtificates">
+        <h2 class="section-title fade-in">🎓 Certificates of Achievement</h2>
+        <div class="projects-grid">
+            <div class="project-card fade-in">
+                <div class="project-icon">❤️</div>
+                <a href="Appreciation cirtificate .jpg"><h3 class="project-title">NCC Volunteer(2018)</h3></a>
+                <p class="project-description">
+                    Contributed as an NCC cadet during the district-level Science, Mathematics & Environmental Exhibition,
+                    supporting event coordination and discipline management.
+                </p>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="project-icon">❤️</div>
+                <a href="Appreciation cirtificate -2.jpg"><h3 class="project-title">NCC Volunteer(2019)</h3></a>
+                <p class="project-description">
+                    Contributed as an NCC cadet during the District-Level Exhibition & Project compititions of INSPIRE Awardees,
+                    supporting event coordination and discipline management. Demonstrated teamwork, leadership, 
+                    and responsibility throughout the event.
+                </p>
+            </div>
+
+            
+
+            <div class="project-card fade-in">
+                <div class="project-icon">🏆</div>
+                <a href="Appreciation cirtificate -3.jpg">
+                    <h3 class="project-title">District-Level Math Contest</h3>
+                </a>
+                <p class="project-description">
+                    Participated in the District-Level Mathematics Competition held on National Mathematics Day. Exhibited 
+                    analytical 
+                    thinking and problem-solving skills, contributing actively to the event’s success.
+                </p>
+             </div>
+
+             <div class="project-card fade-in">
+                <div class="project-icon">🌟</div>
+                <a href="Appreciation cirtificate -4.jpg"><h3 class="project-title">Science Knowledge Competition Certificate</h3></a>
+                <p class="project-description">
+                    Engaged in the Science Knowledge Competition, showcasing aptitude in scientific concepts. Applied critical thinking 
+                    and problem-solving skills to successfully complete challenging tasks..
+                </p>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="project-icon">🏆</div>
+                <a href="Appreciation cirtificate -5.jpg"><h3 class="project-title">INTACH Heritage Quiz Recognition</h3></a>
+                <p class="project-description">
+                    Participated in the INTACH Heritage Quiz and received a certificate of participation. Enhanced awareness of 
+                    cultural heritage and developed quick analytical and recall skills during the quiz.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Calculator Section -->
+    <section class="section calculator-section" id="calculator">
+        <h2 class="section-title fade-in" style="margin-bottom: 50px;">🧮 Advanced Calculator</h2>
+        
+        <div class="calculator-wrapper fade-in">
+            <div class="calculator">
+                <input type="text" id="display" readonly placeholder="0" />
+                <div class="btns">
+                    <button class="btn" onclick="clearDisplay()">AC</button>
+                    <button class="btn" onclick="addToDisplay('()')">()</button>
+                    <button class="btn" onclick="addToDisplay('%')">%</button>
+                    <button class="bt" onclick="addToDisplay('/')">÷</button>
+                    <button onclick="addToDisplay('7')">7</button>
+                    <button onclick="addToDisplay('8')">8</button>
+                    <button onclick="addToDisplay('9')">9</button>
+                    <button class="bt" onclick="addToDisplay('*')">×</button>
+                    <button onclick="addToDisplay('4')">4</button>
+                    <button onclick="addToDisplay('5')">5</button>
+                    <button onclick="addToDisplay('6')">6</button>
+                    <button class="bt" onclick="addToDisplay('-')">−</button>
+                    <button onclick="addToDisplay('1')">1</button>
+                    <button onclick="addToDisplay('2')">2</button>
+                    <button onclick="addToDisplay('3')">3</button>
+                    <button class="bt" onclick="addToDisplay('+')">+</button>
+                    <button onclick="addToDisplay('0')" style="border-radius: 0 0 0 20px;">0</button>
+                    <button onclick="addToDisplay('.')">.</button>
+                    <button onclick="backspace()">⌫</button>
+                    <button class="bt" onclick="calculate()" style="border-radius: 0 0 20px 0;">=</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <h2 class="section-title fade-in">📧 Get In Touch</h2>
+        <div class="contact-container fade-in">
+            <div class="contact-info">
+                <h3>Let's Work Together!</h3>
+                <p>I'm currently available for freelance work and open to full-time opportunities.
+                     If you have a project that you want to get started or think you need my help with something,
+                      then get in touch.</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class='bx bx-envelope'></i>
+                        <span>bmaibu213@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class='bx bx-phone'></i>
+                        <span>+91 6281627507</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class='bx bx-map'></i>
+                        <span>Hyderabad, India</span>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form" id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" required>
+                    <label for="name">Your Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" required>
+                    <label for="email">Your Email</label>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="subject" name="subject" required>
+                    <label for="subject">Subject</label>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <label for="message">Your Message</label>
+                </div>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    
+    <footer class="footer">
+      <div class="footer-waves">
+          <div class="wave wave1"></div>
+          <div class="wave wave2"></div>
+          <div class="wave wave3"></div>
+      </div>
+      
+      <div class="footer-content">
+          <div class="footer-grid">
+              <div class="footer-brand">
+                  <h3 class="footer-logo">MAIBU</h3>
+                  <p class="footer-tagline">Crafting Digital Excellence</p>
+                  <div class="footer-social">
+                      <a href="https://github.com/bmaibu" target="_blank"><i class='bx bxl-github'></i></a>
+                      <a href="https://www.linkedin.com/in/b-maibu-b06254272/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                      <a href="https://www.instagram.com/bmaibu_/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                      <a href="https://wa.me/6281627507" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+                      <a href="https://www.twitter.com/@bmaibu_/" target="_blank"><i class='bx bxl-twitter'></i></a>
+                      <a href="https://www.facebook.com/share/1ALXso9iuT/" target="_blank"><i class='bx bxl-facebook'></i></a>
+                  </div>
+              </div>
+              
+              <div class="footer-links">
+                  <h4>Quick Links</h4>
+                  <ul>
+                      <li><a href="#home">Home</a></li>
+                      <li><a href="#about">About</a></li>
+                      <li><a href="#skills">Skills</a></li>
+                      <li><a href="#projects">Projects</a></li>
+                      <li><a href="#cirtificates">Cirtificates</a></li>
+                      <li><a href="#calculator">Calculator</a></li>
+                  </ul>
+              </div>
+              
+              <div class="footer-tech">
+                  <h4>Tech Stack</h4>
+                  <div class="tech-icons">
+                      <span class="tech-icon" title="HTML5">🌐</span>
+                      <span class="tech-icon" title="CSS3">🎨</span>
+                      <span class="tech-icon" title="JavaScript">⚡</span>
+                      <span class="tech-icon" title="React">⚛️</span>
+                      <span class="tech-icon" title="Node.js">🟢</span>
+                      <span class="tech-icon" title="MongoDB">🍃</span>
+                  </div>
+              </div>
+              
+              <div class="footer-contact">
+                  <h4>Get In Touch</h4>
+                  <div class="contact-quick">
+                      <a href="mailto:bmaibu213@gmail.com" class="contact-link">
+                          <i class='bx bx-envelope'></i>
+                          <span>bmaibu213@gmail.com</span>
+                      </a>
+                      <a href="tel:+916281627507" class="contact-link">
+                          <i class='bx bx-phone'></i>
+                          <span>+91 6281627507</span>
+                      </a>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="footer-bottom">
+              <div class="footer-copyright">
+                  <p>&copy; 2024 MAIBU. All rights reserved. | Designed with 💚 by MAIBU</p>
+              </div>
+              <div class="footer-scroll-top">
+                  <button id="scrollTop" class="scroll-top-btn">
+                      <i class='bx bx-up-arrow-alt'></i>
+                  </button>
+              </div>
+          </div>
+      </div>
+      
+      <div class="footer-particles">
+          <div class="footer-particle"></div>
+          <div class="footer-particle"></div>
+          <div class="footer-particle"></div>
+          <div class="footer-particle"></div>
+          <div class="footer-particle"></div>
+      </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
