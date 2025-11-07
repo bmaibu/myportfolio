@@ -404,8 +404,8 @@ body {
     background: var(--gradient-neon);
     background-size: 200% 200%;
     animation: gradientShift 3s ease infinite;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
     background-clip: text;
 }
 
@@ -634,8 +634,6 @@ body {
     font-size: 60px;
     margin-bottom: 20px;
     background: var(--gradient-neon);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     background-clip: text;
     text-decoration: none;
 }
